@@ -5,7 +5,7 @@
     <meta name="description" content="a groups project about a responsive website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/css/style.css">
-    <title>..::Ipc::..</title>
+    <title>Ipc</title>
 </head>
 <body>
     <header>
@@ -46,33 +46,37 @@
     
     </header>
     <main role="main">
-        <section class="tabs-info">
-
-            <ul class="nav nav-tabs">
-              <li class="nav-item">
-                <a class="nav-link active" href="#summary">Summary</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#practical">Practical</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact us</a>
-              </li>
-            </ul>
-  
-            <section id="summary">
-              <div class="summary-card card d-flex flex-row justify-content-center align-items-center">
-                <img class="" src="" alt="kajak">
-                <div class="summary-body card-body">
-                  <h2 class="card-title">Summary</h2>
-                  <p class="summary-text card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nemo asperiores corrupti obcaecati aliquid, fugiat non? Pariatur, quasi quibusdam. Quae ab qui iure aspernatur, sequi eius consectetur repellat voluptate sunt non quibusdam, nobis illo, voluptatum facilis? Blanditiis laboriosam saepe, natus optio consequatur atque repellat tenetur quae nisi numquam, architecto quasi?
-                  </p>
-                  <a href="#practical" class="btn btn-success">More practical info</a>
-                </div>
-              </div>
+        <div class="tabset">
+            <!-- Tab 1 -->
+            <input type="radio" name="tabset" id="tab1" aria-controls="Lorem" checked>
+            <label for="tab1">Lorem</label>
+            <!-- Tab 2 -->
+            <input type="radio" name="tabset" id="tab2" aria-controls="Lorem">
+            <label for="tab2">Lorem</label>
+            <!-- Tab 3 -->
+            <input type="radio" name="tabset" id="tab3" aria-controls="Lorem">
+            <label for="tab3">Lorem</label>
+            
+            <div class="tab-panels">
+              <section id="Lorem3" class="tab-panel">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p><strong>Lorem</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam temporibus ea exercitationem eveniet, debitis vitae voluptatibus provident nihil quas similique.</p>
+                <p><strong>lorem</strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi hic ipsam perspiciatis unde eaque odio. Ad molestiae sint id accusamus iure tenetur incidunt amet eum aspernatur omnis, accusantium obcaecati eligendi odio. Earum, numquam. Expedita quae odit porro hic rem facere laudantium laboriosam ipsum ullam, doloremque nemo repellendus soluta nulla reprehenderit.</p>
             </section>
-  </section
+              <section id="lorem2" class="tab-panel">
+                <h2>Lorem</h2>
+                <p><strong>lorem</strong>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequuntur ipsam alias, cupiditate totam delectus voluptatibus nulla qui accusamus exercitationem maxime sit eum illum ratione officiis. Neque sunt fugit molestias maiores, atque molestiae porro ea laboriosam unde omnis deleniti officia officiis quos quaerat. Consequatur, modi a officia ad asperiores quibusdam!</p>
+              </section>
+              <section id="lorem" class="tab-panel">
+                <h2>Lorem</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium ex dolores, sapiente sint delectus temporibus maiores minima voluptate sed officia voluptates iure itaque illo eum aliquid nam obcaecati quaerat in, corrupti consequatur, hic et ab. Odio eveniet pariatur ratione sunt ipsam laboriosam esse dignissimos velit, eaque molestias nostrum, harum voluptatem?</p>
+
+                <p><strong>lorem</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aut recusandae, est hic maxime rem natus molestias aliquam repellendus dolorem provident ipsam odio suscipit obcaecati quidem atque, saepe, a vitae. Eveniet ut fugit vero perferendis fugiat earum aperiam, ullam enim ab voluptate aliquid suscipit eos dicta ipsa commodi, similique nulla.</p>
+              </section>
+            </div>
+            
+          </div>
+          
     </main>
     <footer>
 
