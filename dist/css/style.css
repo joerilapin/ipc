@@ -198,3 +198,8 @@
   .tabset {
     max-width: 65em;
   }
+/* favicons*/
+  i {
+      
+    font-size: 6rem;
+  }
